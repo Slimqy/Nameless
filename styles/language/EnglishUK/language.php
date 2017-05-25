@@ -382,10 +382,10 @@ $navbar_language = array(
 	'view_alerts' => 'View Alerts',
 	
 	// Icons - will display before the text
-	'home_icon' => '',
-	'play_icon' => '',
-	'forum_icon' => '',
-	'staff_apps_icon' => ''
+	'home_icon' => '<i class="fa fa-home" aria-hidden="true"></i>',
+	'play_icon' => '<i class="fa fa-globe" aria-hidden="true"></i>',
+	'forum_icon' => '<i class="fa fa-comments" aria-hidden="true"></i>',
+	'staff_apps_icon' => '<i class="fa fa-file" aria-hidden="true"></i>'
 );
 
 /*
@@ -647,8 +647,8 @@ $mod_language = array(
  */
 $general_language = array(
 	// Homepage
-	'news' => 'News',
-	'social' => 'Social',
+	'news' => 'News Updates'
+	'social' => 'Social Links'
 	'join' => 'Join',
 	
 	// General terms
@@ -670,15 +670,15 @@ $general_language = array(
 	'next' => 'Next',
 	
 	// Play page
-	'connect_with' => 'Connect to the server with the IP {x}', // Don't replace {x}
-	'online' => 'Online',
+	'connect_with' => 'Connect with the IP <strong>{x}</strong>'
+	'online' => 'Online'
 	'offline' => 'Offline',
 	'status' => 'Status:',
 	'players_online' => 'Players Online:',
 	'queried_in' => 'Queried In:',
 	'server_status' => 'Server Status',
 	'no_players_online' => 'There are no players online!',
-	'x_players_online' => 'There are {x} players online.', // Don't replace {x}
+	'x_players_online' => 'There are <strong> {x} players online.</strong>', // Don't replace {x}
 	
 	// Other
 	'page_loaded_in' => 'Page loaded in {x}s', // Don't replace {x}; 's' stands for 'seconds'
